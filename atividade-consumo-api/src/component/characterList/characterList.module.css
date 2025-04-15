@@ -7,7 +7,7 @@
 .title {
   text-align: center;
   margin: 20px 0;
-  color: #0e1a40; /* Azul de Ravenclaw */
+  color: #0e1a40; 
   font-size: 2rem;
 }
 
@@ -19,7 +19,7 @@
 .searchInput {
   width: 100%;
   padding: 10px;
-  border: 2px solid #d3a625; /* Dourado */
+  border: 2px solid #d3a625;
   border-radius: 20px;
   font-size: 1rem;
 }
@@ -49,7 +49,7 @@
 }
 
 .image {
-  width: 100%;
+  width: 20%;
   height: 100%;
   object-fit: cover;
 }
@@ -59,7 +59,7 @@
 }
 
 .characterName {
-  color: #740001; /* Vermelho de Gryffindor */
+  color: #740001; 
   margin: 0 0 10px;
   font-size: 1.2rem;
 }
@@ -79,7 +79,7 @@
   margin-top: 10px;
 }
 
-/* Cores das casas */
+
 .gryffindor { background-color: #740001; }
 .slytherin { background-color: #1a472a; }
 .hufflepuff { background-color: #ecb939; color: black; }
