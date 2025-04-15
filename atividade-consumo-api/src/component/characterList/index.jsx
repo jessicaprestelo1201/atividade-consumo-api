@@ -63,6 +63,7 @@ const CharacterList = () => {
       <div className={styles.filmGrid}>
         {filteredCharacters.slice(0, 24).map((character) => (
           <div key={character.id} className={styles.filmCard}>
+              <div className={styles.content}>
             <div className={styles.imageContainer}>
               <img 
                 src={character.image || "/default-wizard.png"} 
@@ -73,7 +74,6 @@ const CharacterList = () => {
                 }}
               />
             </div>
-            <div className={styles.content}>
               <h2 className={styles.filmTitle}>{character.name}</h2>
               <p className={styles.director}>
                 <strong>Casa:</strong> {character.house || "Desconhecida"}

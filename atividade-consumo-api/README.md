@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Descrição do Projeto
+Este projeto é uma aplicação web desenvolvida em Next.js que consome a Harry Potter API para exibir informações sobre os personagens do universo Harry Potter. A aplicação apresenta um catálogo completo com design temático e responsivo.
 
-## Getting Started
+## Funcionalidades Principais
+Listagem de Personagens
+Exibe cards com imagens e informações básicas
 
-First, run the development server:
+Layout em grid adaptável
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Sistema de Busca
+Filtra personagens por nome ou casa
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Busca em tempo real
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Detalhes dos Personagens
+Informações completas de cada personagem
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Identificação visual da casa de Hogwarts
 
-## Learn More
+## Interface responsiva
 
-To learn more about Next.js, take a look at the following resources:
+## Feedback visual durante carregamento
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tecnologias Utilizadas
+Frontend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Next.js (React Framework)
 
-## Deploy on Vercel
+CSS Modules (para estilização)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Axios (HTTP Client)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Estilização
+Layout Flexbox/Grid
+
+Design Responsivo
+
+Cores Temáticas

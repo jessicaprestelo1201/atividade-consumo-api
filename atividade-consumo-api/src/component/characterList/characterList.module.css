@@ -7,10 +7,13 @@
 .title {
   text-align: center;
   margin: 20px 0;
-  color: #0e1a40; 
+  color: #890000; 
   font-size: 2rem;
 }
-
+.filmCard {
+  background-color: #890000;
+  border-radius: 10%;
+}
 .searchContainer {
   margin: 20px auto;
   max-width: 500px;
@@ -24,11 +27,12 @@
   font-size: 1rem;
 }
 
-.characterGrid {
+.filmGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   margin-top: 30px;
+  border-radius: 10%;
 }
 
 .characterCard {
@@ -46,16 +50,20 @@
 .imageContainer {
   height: 200px;
   overflow: hidden;
+ 
 }
 
 .image {
-  width: 20%;
+  width: 100%;
   height: 100%;
+  border-radius: 10%;
   object-fit: cover;
+  
 }
 
 .content {
   padding: 15px;
+ 
 }
 
 .characterName {
